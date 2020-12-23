@@ -12,7 +12,7 @@ public class Ponchik extends Korotishki {
         this.reflections = reflections;
     }
 
-    public void eat(PlatePorridge plate) {
+    public void eat(Plate plate) {
         System.out.println(getName() + " eat " + plate.getName());
         status = Status.NOTHUNGRY;
     }
